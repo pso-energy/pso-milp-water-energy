@@ -1,0 +1,26 @@
+# Directories
+.venv
+.env
+.pytest_cache
+__pycache__
+simulations
+
+# File types
+*.lp
+*.xlsx
+*.npy
+*.log
+*.zip
+*.json
+*.db
+!data/FULL.db
+
+# Directory contents
+output/*
+memray/*
+log/*
+plots/*
+simulations_unzipped/*
+
+.idea
+positions_sorted.csv
